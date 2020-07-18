@@ -1,0 +1,41 @@
+[ {
+  "uid" : "3d5708a83a654af2",
+  "name" : "当前微信曾绑定过其它custid",
+  "time" : {
+    "start" : 1592554967288,
+    "stop" : 1592554967592,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a9f243396183de2",
+  "name" : "成功",
+  "time" : {
+    "start" : 1592554967598,
+    "stop" : 1592554967969,
+    "duration" : 371
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c6cddaa3abdb3a3",
+  "name" : "当前custid已绑定过其它微信",
+  "time" : {
+    "start" : 1592554967244,
+    "stop" : 1592554967283,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "906990448d066a5f",
+  "name" : "根据custid读取信息为空",
+  "time" : {
+    "start" : 1592554967194,
+    "stop" : 1592554967232,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

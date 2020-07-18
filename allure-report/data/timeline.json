@@ -1,0 +1,177 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "A06P-A90F12DAA",
+    "children" : [ {
+      "name" : "8100-MainThread",
+      "children" : [ {
+        "name" : "当前custid已绑定过其它微信",
+        "uid" : "4c6cddaa3abdb3a3",
+        "parentUid" : "9ca8d8e922023740f03b7d76648efaff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554967244,
+          "stop" : 1592554967283,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "根据custid读取信息为空",
+        "uid" : "906990448d066a5f",
+        "parentUid" : "9ca8d8e922023740f03b7d76648efaff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554967194,
+          "stop" : 1592554967232,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "当前微信曾绑定过其它custid",
+        "uid" : "3d5708a83a654af2",
+        "parentUid" : "9ca8d8e922023740f03b7d76648efaff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554967288,
+          "stop" : 1592554967592,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "成功",
+        "uid" : "7a9f243396183de2",
+        "parentUid" : "9ca8d8e922023740f03b7d76648efaff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554967598,
+          "stop" : 1592554967969,
+          "duration" : 371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ca8d8e922023740f03b7d76648efaff"
+    }, {
+      "name" : "6856-MainThread",
+      "children" : [ {
+        "name" : "test_WeixinBindCustid[pyfixture1]",
+        "uid" : "a2240c1735b54017",
+        "parentUid" : "3f07e032f4a928045fd3ab733f106cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592553002005,
+          "stop" : 1592553002038,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': '286427653', 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-2', '当前custid已绑定过其它微信'))" ]
+      }, {
+        "name" : "test_WeixinBindCustid[pyfixture3]",
+        "uid" : "72141a4164d4e608",
+        "parentUid" : "3f07e032f4a928045fd3ab733f106cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592553002102,
+          "stop" : 1592553002344,
+          "duration" : 242
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': 50000372, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('0', '成功'))" ]
+      }, {
+        "name" : "test_WeixinBindCustid[pyfixture2]",
+        "uid" : "1b5923bba05f989c",
+        "parentUid" : "3f07e032f4a928045fd3ab733f106cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592553002044,
+          "stop" : 1592553002082,
+          "duration" : 38
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'EFF6F7244A1A6BB848787E320EFBF6CE', 'custid': 50000394, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-3', '当前微信曾绑定过其它custid'))" ]
+      }, {
+        "name" : "test_WeixinBindCustid[pyfixture0]",
+        "uid" : "2d1873b0fe867881",
+        "parentUid" : "3f07e032f4a928045fd3ab733f106cec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592553001939,
+          "stop" : 1592553002001,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': 123456, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-1', '根据custid读取信息为空'))" ]
+      } ],
+      "uid" : "3f07e032f4a928045fd3ab733f106cec"
+    }, {
+      "name" : "9896-MainThread",
+      "children" : [ {
+        "name" : "当前custid已绑定过其它微信",
+        "uid" : "a88f2e485bd1b873",
+        "parentUid" : "b0200ffb9d1805e4489f08ddd74bfb5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554055915,
+          "stop" : 1592554055962,
+          "duration" : 47
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': '286427653', 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-2', '当前custid已绑定过其它微信'))" ]
+      }, {
+        "name" : "成功",
+        "uid" : "1d05d55321146129",
+        "parentUid" : "b0200ffb9d1805e4489f08ddd74bfb5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554056093,
+          "stop" : 1592554056961,
+          "duration" : 868
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': 50000377, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('0', '成功'))" ]
+      }, {
+        "name" : "当前微信曾绑定过其它custid",
+        "uid" : "7e6b6aa757f3227b",
+        "parentUid" : "b0200ffb9d1805e4489f08ddd74bfb5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554055975,
+          "stop" : 1592554056077,
+          "duration" : 102
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'ocil5uBaHHDHc0je9I2LWI5f-kfw', 'custid': 50000396, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-3', '当前微信曾绑定过其它custid'))" ]
+      }, {
+        "name" : "根据custid读取信息为空",
+        "uid" : "aa25de81b0615e7e",
+        "parentUid" : "b0200ffb9d1805e4489f08ddd74bfb5f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1592554055815,
+          "stop" : 1592554055899,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "({'union_id': 'fake123123test1231', 'custid': 123456, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-1', '根据custid读取信息为空'))" ]
+      } ],
+      "uid" : "b0200ffb9d1805e4489f08ddd74bfb5f"
+    } ],
+    "uid" : "a70824a8fd57e2ecb2aca8965f903265"
+  } ]
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "2d1873b0fe867881",
+  "name" : "test_WeixinBindCustid[pyfixture0]",
+  "fullName" : "testcase.Weixin_Bind_Custid_test#test_WeixinBindCustid",
+  "historyId" : "6b41cff523e6c3789324a33f3530e499",
+  "time" : {
+    "start" : 1592553001939,
+    "stop" : 1592553002001,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1592553001909,
+      "stop" : 1592553001909,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "pyfixture",
+    "time" : {
+      "start" : 1592553001909,
+      "stop" : 1592553001909,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1592553002345,
+      "stop" : 1592553002383,
+      "duration" : 38
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=60)"
+  }, {
+    "name" : "tag",
+    "value" : "weixin_bind_custid"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Weixin_Bind_Custid_test"
+  }, {
+    "name" : "host",
+    "value" : "A06P-A90F12DAA"
+  }, {
+    "name" : "thread",
+    "value" : "6856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Weixin_Bind_Custid_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pyfixture",
+    "value" : "({'union_id': 'fake123123test1231', 'custid': 123456, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-1', '根据custid读取信息为空'))"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "weixin_bind_custid", "flaky(reruns=1, reruns_delay=60)" ]
+  },
+  "source" : "2d1873b0fe867881.json",
+  "parameterValues" : [ "({'union_id': 'fake123123test1231', 'custid': 123456, 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-1', '根据custid读取信息为空'))" ]
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "a88f2e485bd1b873",
+  "name" : "当前custid已绑定过其它微信",
+  "fullName" : "testcase.Weixin_Bind_Custid_test#test_WeixinBindCustid",
+  "historyId" : "dc59aeae11014ebce37bc27052213353",
+  "time" : {
+    "start" : 1592554055915,
+    "stop" : 1592554055962,
+    "duration" : 47
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pyfixture",
+    "time" : {
+      "start" : 1592554055914,
+      "stop" : 1592554055914,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "_Module__pytest_setup_module",
+    "time" : {
+      "start" : 1592554055799,
+      "stop" : 1592554055799,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Module__pytest_setup_module::0",
+    "time" : {
+      "start" : 1592554056963,
+      "stop" : 1592554057004,
+      "duration" : 41
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "weixin_bind_custid"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=60)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "Weixin_Bind_Custid_test"
+  }, {
+    "name" : "host",
+    "value" : "A06P-A90F12DAA"
+  }, {
+    "name" : "thread",
+    "value" : "9896-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.Weixin_Bind_Custid_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pyfixture",
+    "value" : "({'union_id': 'fake123123test1231', 'custid': '286427653', 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-2', '当前custid已绑定过其它微信'))"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "weixin_bind_custid", "flaky(reruns=1, reruns_delay=60)" ]
+  },
+  "source" : "a88f2e485bd1b873.json",
+  "parameterValues" : [ "({'union_id': 'fake123123test1231', 'custid': '286427653', 'appkey': 2200, 'open_id': 'fakeopenid201912247891122', 'ip_address': '192.168.100.200', 'permanent_id': 1231231132131313, 'trace_id': 12312213122222222, 'source_url': 'http://www.testweb.com', 'result_format': 'json'}, ('-2', '当前custid已绑定过其它微信'))" ]
+}

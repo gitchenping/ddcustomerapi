@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jun 19 16:22:47 CST 2020","Fri Jun 19 16:22:47 CST 2020","304","testcase","Weixin_Bind_Custid_test","","","","当前微信曾绑定过其它custid",""
+"passed","Fri Jun 19 16:22:47 CST 2020","Fri Jun 19 16:22:47 CST 2020","371","testcase","Weixin_Bind_Custid_test","","","","成功",""
+"passed","Fri Jun 19 16:22:47 CST 2020","Fri Jun 19 16:22:47 CST 2020","39","testcase","Weixin_Bind_Custid_test","","","","当前custid已绑定过其它微信",""
+"passed","Fri Jun 19 16:22:47 CST 2020","Fri Jun 19 16:22:47 CST 2020","38","testcase","Weixin_Bind_Custid_test","","","","根据custid读取信息为空",""

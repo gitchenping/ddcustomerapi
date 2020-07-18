@@ -1,0 +1,61 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.Weixin_Bind_Custid_test",
+    "children" : [ {
+      "name" : "根据custid读取信息为空",
+      "uid" : "906990448d066a5f",
+      "parentUid" : "e0aa1d67b08e89bbe8504af548f55b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592554967194,
+        "stop" : 1592554967232,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "当前custid已绑定过其它微信",
+      "uid" : "4c6cddaa3abdb3a3",
+      "parentUid" : "e0aa1d67b08e89bbe8504af548f55b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592554967244,
+        "stop" : 1592554967283,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "当前微信曾绑定过其它custid",
+      "uid" : "3d5708a83a654af2",
+      "parentUid" : "e0aa1d67b08e89bbe8504af548f55b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592554967288,
+        "stop" : 1592554967592,
+        "duration" : 304
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "成功",
+      "uid" : "7a9f243396183de2",
+      "parentUid" : "e0aa1d67b08e89bbe8504af548f55b34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1592554967598,
+        "stop" : 1592554967969,
+        "duration" : 371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.Weixin_Bind_Custid_test"
+  } ]
+}
